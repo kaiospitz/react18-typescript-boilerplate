@@ -1,6 +1,6 @@
 # React 18 TypeScript Boilerplate
 
-This is a boilerplate for creating React 18 applications with TypeScript, utilizing webpack as the build tool.
+This is a boilerplate for creating React 18 applications with TypeScript, utilizing webpack, Babel, ESLint, Prettier, Jest, and SCSS.
 
 ## Included packages and configurations
 
