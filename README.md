@@ -6,7 +6,7 @@ This is a boilerplate for creating React 18 applications with TypeScript, utiliz
 
 This boilerplate includes the following packages and configurations:
 
-- React 18
+- React 18 with routing
 - TypeScript
 - webpack 5
 - webpack-dev-server

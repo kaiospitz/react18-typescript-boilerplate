@@ -1,12 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import * as ReactDOMClient from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement,
-);
+const rootDiv = document.getElementById('root');
+if (rootDiv === null) throw new Error('No element with ID "root" found.');
+const root = ReactDOMClient.createRoot(rootDiv);
+
 root.render(
   <React.StrictMode>
     <App />
